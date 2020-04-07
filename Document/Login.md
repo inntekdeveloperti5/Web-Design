@@ -16,42 +16,33 @@
     <!-- Agregar Likns CSS Portal -->
   </head>
   <body class="bg-light">
-    <main id="context" class="container-center">
-      <img class="logo" src="~/Images/imagotipo-fransun.png" alt="Logo" />
-      <section class="login-box" style="margin-bottom:1rem">
-        <article>
-          <div style="padding: 2rem 3rem 1rem 3rem;">
-            <form>
-              <fieldset>
-                <div class="form-control">
-                  <label for="UserName" style="margin-bottom: 1rem;"><i class="fas fa-user mr-3"></i>Usuario</label>
-                  <input id="UserName" name="UserName" type="text" required="required" />
-                </div>
-                <br />
-                <div class="form-control">
-                  <label for="Password" style="margin-bottom: 1rem;"><i class="fas fa-lock mr-3"></i>Contraseña</label>
-                  <input id="Password" name="Password" type="password" required="required" />
-                </div>
-              </fieldset>
-              <br />
-              <div class="buttons-toolbar">
-                <button class="link" type="submit"><i class="fas fa-sign-in-alt mr-3"></i>Entrar</button>
-              </div>
-            </form>
+    <main id="context" class="position-absolute d-flex flex-column justify-content-center align-items-center h-100 w-100">
+      <img class="mb-4" src="~/Images/imagotipo-fransun.png" style="height:130px;filter:drop-shadow(0 0 7px #f8f9fa);" />
+      <div class="bg-white rounded shadow-6dp pt-5 pb-4 pl-5 pr-5" style="max-width:500px;width:100%">
+        <form>
+          <div class="form-group">
+            <label class="text-muted" for="exampleInputEmail1">Email Address</label>
+            <input type="email" class="form-control text-center" id="exampleInputEmail1" required="required" />
           </div>
-        </article>
-      </section>
-      <section class="login-box" style="margin-bottom:0">
-        <article>
-          <div style="padding:1rem 3rem;">
-            <a style="text-decoration:none; text-align:center;display:block" href="@Url.Action("Manual","Login")"><i class="fas fa-book"></i>&nbsp;&nbsp;Descarga el manual de usuario</a>
+          <div class="form-group">
+            <label class="text-muted" for="exampleInputPassword1">Password</label>
+            <input type="password" class="form-control text-center" id="exampleInputPassword1" required="required" />
           </div>
-        </article>
-      </section>
+          <div class="form-group form-check pl-1">
+            <div class="custom-control custom-checkbox">
+              <input type="checkbox" class="custom-control-input" id="customControlAutosizing" />
+              <label class="custom-control-label text-muted" for="customControlAutosizing">Recordar usuario</label>
+            </div>
+          </div>
+          <div class="text-right">
+            <button type="submit" class="btn btn-link text-decoration-none">
+            <span><i class="fas fa-sign-in-alt mr-2"></i>Iniciar Sesión</span>
+            </button>
+          </div>
+        </form>
+      </div>
     </main>
-    
-    <!-- Animación -->
-    <footer class="fixed-bottom">
+    <footer class="fixed-bottom" style="z-index:-1;">
       <svg class="editorial" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
         viewBox="0 24 150 28" preserveAspectRatio="none">
         <defs>
@@ -64,7 +55,6 @@
         </g>
       </svg>
     </footer>
-    
     <!-- Agregar Likns Scripts FontAwesome + Solid || Regular -->
     <!-- Agregar Likns Scripts Knockout -->
     <!-- Agregar Likns Scripts JQuery -->
