@@ -4,10 +4,12 @@ La estructura del archivo HTML se configurará de la siguiente manera.
 
 ```html
 <!DOCTYPE html>
-<html>
+<html lang="es-MX">
   <head>
-    <meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no" />
-    <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="distribution" content="global" />
+    <meta name="author" content="G.F. Inntek" />
     <meta charset="utf-8" />
     <title>Título del portal</title>
     <!-- Agregar Likns CSS Bootstrap -->
@@ -31,7 +33,7 @@ La estructura del archivo HTML se configurará de la siguiente manera.
 ```
 
 > El codigo anterior hace referencia a las siguientes librerias y frameworks
-> * [Bootstrap](https://getbootstrap.com/) en su version 4.4.1.
-> * [JQuery](https://jquery.com/) en su version 3.4.1.
-> * [FontAwesome](https://fontawesome.com/) en su version 5.13.
-> * [Knockout](https://knockoutjs.com) en su version 3.5.1.
+> * [Bootstrap](https://getbootstrap.com/) en su versión 4.4.1.
+> * [JQuery](https://jquery.com/) en su versión 3.4.1.
+> * [FontAwesome](https://fontawesome.com/) en su versión 5.13.
+> * [Knockout](https://knockoutjs.com) en su versión 3.5.1.
