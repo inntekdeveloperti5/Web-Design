@@ -1,5 +1,7 @@
 # Estructura del contenido en el portal
 
+![Contenido](https://raw.githubusercontent.com/inntekdeveloperti5/Web-Design/master/Document/Blob/Panels.PNG "Contenido")
+
 ```html
 <main id="context" class="container">
   <section class="row">
