@@ -1,6 +1,6 @@
 # Estructura del Navbar
 
-
+![Navbar](https://raw.githubusercontent.com/inntekdeveloperti5/Web-Design/master/Document/Blob/Navbar.PNG "Navbar")
 
 ```html
 <body>
@@ -57,3 +57,28 @@
   </header>
 </body>
 ```
+
+## Backgroud color
+```css
+.bg-g-blue {
+    background: rgb(0,123,255);
+    background: linear-gradient(0deg, rgb(0,102,211) 0%, rgb(0,123,255) 100%);
+    border-top: 1px solid rgb(0,123,255);
+    border-bottom: 1px solid rgb(0,102,211);
+}
+```
+
+## Icon Shadow
+```css
+.filter-shadow {
+    filter: drop-shadow(0 0 3px rgba(0,0,0,0.3)) drop-shadow(0 0 1px rgba(0,0,0,0.2));
+}
+```
+
+## Text Shadow
+```css
+.text-shadow {
+    text-shadow: 0 0 3px rgba(0,0,0,0.3), 0 0 1px rgba(0,0,0,0.2);
+}
+```
+
